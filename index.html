@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Telefonkönyv</title>
+    <link rel="stylesheet" type="text/css" href="telefonkonyv.css">
+    <script src="telefonkonyv.js"></script>
+</head>
+
+<body onload="main()">
+    <h1>Telefonkönyv</h1>
+    <h2 id="action">Felvitel</h2>
+    <form>
+        <table>
+            <tr>
+                <td>Név:</td>
+                <td><input type="text" name="nev" id="nev" placeholder="Adja meg a nevet" autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td>Telefonszám:</td>
+                <td><input type="text" name="telefonszam" id="telefonszam" placeholder="Adja meg a telefonszámot"
+                        autocomplete="off"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" id="submit">Rögzít</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h2>Címtár</h2>
+    <div id="cimjegyzekDiv">
+    </div>
+</body>
+
+</html>
